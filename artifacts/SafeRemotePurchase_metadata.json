@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "notBuyer",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "notInTheRightState",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "notSeller",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "refundUnsuccesful",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "Aborted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "ItemRecieved",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "PurchaseConfirmed",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "SellerRefunded",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "abort",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "confirmPurchase",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "confirmRecieve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "refundSeller",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum SafeRemotePurchase.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SafeRemotePurchase.sol": "SafeRemotePurchase"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SafeRemotePurchase.sol": {
+			"keccak256": "0xda6de1e1456deb5da39b837fa22a4b9d9ca77b03646cc4207e5954a9ed0dfcbd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe50c94725f5ed85510115c67e68f04fee9e487f7271750077ce3521d749d1ab",
+				"dweb:/ipfs/QmdqvAiJ9b2wqJpsD1xrVrXeS7YS8HusWQzgquR2VV4nwT"
+			]
+		}
+	},
+	"version": 1
+}
